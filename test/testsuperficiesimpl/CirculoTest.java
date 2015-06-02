@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author oracle
  */
-public class CuadradoTest {
+public class CirculoTest {
     
-    public CuadradoTest() {
+    public CirculoTest() {
     }
     
     @BeforeClass
@@ -29,39 +29,39 @@ public class CuadradoTest {
     }
 
     /**
-     * Test of getLado method, of class Cuadrado.
+     * Test of getRadio method, of class Circulo.
      */
     @Test
-    public void testGetLado() {
-        System.out.println("getLado");
-        Cuadrado instance = new Cuadrado();
+    public void testGetRadio() {
+        System.out.println("getRadio");
+        Circulo instance = new Circulo();
         float expResult = 0.0F;
-        float result = instance.getLado();
+        float result = instance.getRadio();
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of setLado method, of class Cuadrado.
+     * Test of setRadio method, of class Circulo.
      */
     @Test
-    public void testSetLado() {
-        System.out.println("setLado");
-        float lado = 0.0F;
-        Cuadrado instance = new Cuadrado();
-        instance.setLado(lado);
+    public void testSetRadio() {
+        System.out.println("setRadio");
+        float radio = 0.0F;
+        Circulo instance = new Circulo();
+        instance.setRadio(radio);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getArea method, of class Cuadrado.
+     * Test of getArea method, of class Circulo.
      */
     @Test
     public void testGetArea() {
         System.out.println("getArea");
-        Cuadrado instance = new Cuadrado();
+        Circulo instance = new Circulo();
         float expResult = 0.0F;
         float result = instance.getArea();
         assertEquals(expResult, result, 0.0);
@@ -70,13 +70,13 @@ public class CuadradoTest {
     }
 
     /**
-     * Test of setArea method, of class Cuadrado.
+     * Test of setArea method, of class Circulo.
      */
     @Test
     public void testSetArea() {
         System.out.println("setArea");
         float area = 0.0F;
-        Cuadrado instance = new Cuadrado();
+        Circulo instance = new Circulo();
         instance.setArea(area);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
